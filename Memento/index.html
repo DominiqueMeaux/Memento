@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mon Mémento</title>
+  </head>
+  <body>
+
+    <h1> MEMENTO </h1>
+
+    <h2>La ligne de commande avec le terminal: Linux ubuntu </h2>
+
+    <h3> Quelque commande </h3>
+
+      <ul>
+
+        <li> Afficher le manuel pour la commande ls: man ls </li>
+        <li> Afficher le contenu dossier courant utiliser la commande: ls </li>
+        <li> Afficher le contenu dossier courant et fichiers cachés: ls -a </li>
+        <li> Afficher le contenu dossier version longue sans les fichiers cachés: ls -l </li>
+        <li> Afficher le contenu dossier version longue avec les fichiers cachés: ls -al </li>
+        <li> Afficher le chemin dossier courant: pwd </pli>
+        <li> Se déplacer dans le dossier Documents: cd Documents </li>
+        <li> Afficher le contenu de ce dossier: ls </li>
+        <!-- / est la racine de lecture -->
+      </ul>
+
+    <h3> Super utilisateur et gestion de paquets </h3>
+      <ul>
+
+        <li> Commande pour se mettre en super utilisateur: sudo -s </li>
+        Puis mettre son mot de passe utilisateur </li>
+        <p> Gérer des paquets c'est à dire mettre à jours certaine fonctionnalité et logiciel. </p>
+        <li> Mettre à jour la liste des paquets: apt update </li> <!-- apt permet d aller chercher des mise à jours dans les dépôts. -->
+        <li> Mettre à jour la liste des paquets: apt update </li> <!-- apt permet d aller chercher des mise à jours dans les dépôts. -->
+        <li> Mettre à jour les paquets: apt upgrade </li>
+        <li> Trouver les paquets contenant le mot( ex: XML ): apt search XML </li>
+        <li> Pour installer le paquet git: install git </li>
+        <li> Télécharger un logiciel par internet: ~# cd Téléchargements/</li>
+          ~/Téléchargements # dpkg -i (logiciel a installer).deb (.deb avec debian)</li> <!-- dpkg permet de télécharger un logiciel télécharger sur internet -->
+        <li> Pour supprimé un logiciel: apt remove en mode super utilisateur.</li>
+
+      </ul>
+
+      <h3>Création de dossiers et fichiers </h3>
+        <ul>
+
+          <li> Créer un dossier website dans documents: cd documents </li>
+          /cd documents $ mkdir website </li>
+          <li> Créer un dossier et un sous dossier en une seule ligne de commande dans le dossier website: Mémento/assets</li>
+          mkdir -p website/Memento/assets </li> <!-- -p pour dossier parents -->
+          <li> Se déplacer dans le dossier nouvellement créer et faire 3 nouveaux dossiers en une seule ligne de commande: css, img, js.</li>
+          /Documents $ cd website/Memento/assets </li>
+          /Documents/website/Memento/assets $ mkdir css img js </li>
+          <li> Créer un fichier style.css dans Memento: /Documents/website/Memento $ touch style.css
+          <!-- Faire un retour arrière dans les dossiers: cd..  -->
+          <p> Créer un fichier index.html </p>
+              <li>  Déplacer un fichier: mv style.css assets/css </li>
+              <li>  mv (nom du fichier extension destination) </li>
+              <li>  mv permet de déplacer un fichier, il etait dans Memento et on le déplace vers assets/css </li>
+          <li> mv permet aussi de renomé des fichiers ou dossiers: exemple: mv style.css design.css</li>
+
+      </ul>
+
+        <h2> Editeur de texte </h2>
+
+
+    <pre><code></code></pre>
+  </body>
+</html>
