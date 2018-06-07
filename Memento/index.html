@@ -1,47 +1,90 @@
 <!DOCTYPE html>
 <html>
    <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mon Mémento</title>
   </head>
   <body>
+    <header>
+        <div class="wrapper">
+          <h1> MEMENTO<span=class"."> . </span> </h1>
+          <nav>
+            <ul>
+              <li><a href="#commande" > commande </a> </li>
+              <li><a href="#HTML" > html </a> </li>
+              <li><a href="#CSS" > css </a> </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+      <section id="commande">
+        <h2>La ligne de commande avec le terminal: Linux ubuntu </h2>
+        <div id="table">
+            <div id="élément2">
+        <table>
 
-    <h1> MEMENTO </h1>
+          <caption> Quelque commande </caption>
+          <tr>
+            <th> Questions </th>
+            <th> Réponses </th>
+          </tr>
+          <tr>
+            <td> Afficher le manuel pour la commande ls </td>
+            <td> man ls </td>
+          </tr>
+          <tr>
+            <td> Afficher le contenu dossier courant utiliser la commande </td>
+            <td> ls </td>
+          </tr>
+          <tr>
+            <td> Afficher le contenu dossier courant et fichiers cachés </td>
+            <td> ls -a </td>
+          </tr>
+          <tr>
+            <td> Afficher le contenu dossier version longue sans les fichiers cachés </td>
+            <td> ls -l </td>
+          </tr>
+          <tr>
+            <td> Afficher le contenu dossier version longue avec les fichiers cachés </td>
+            <td> ls -al </td>
+          </tr>
+          <tr>
+            <td> Afficher le chemin dossier courant </td>
+            <td> pwd </td>
+          </tr>
+          <tr>
+            <td> Se déplacer dans le dossier Documents </td>
+            <td> cd Documents </td>
+          </tr>
+          <tr>
+            <td> Afficher le contenu de ce dossier </td>
+            <td> ls </td>
+          </tr>
+        </table>
+      </div>
+      <div id="élément2">
+        <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/les-tableaux-1" ><img src="assets/img/les tableaux.png" title="image lien vers openclassrooms" /></a>
+      </div>
+      </div>
+      <article>
 
-    <h2>La ligne de commande avec le terminal: Linux ubuntu </h2>
+      <h3> Super utilisateur et gestion de paquets </h3>
+        <ul>
 
-    <h3> Quelque commande </h3>
-
-      <ul>
-
-        <li> Afficher le manuel pour la commande ls: man ls </li>
-        <li> Afficher le contenu dossier courant utiliser la commande: ls </li>
-        <li> Afficher le contenu dossier courant et fichiers cachés: ls -a </li>
-        <li> Afficher le contenu dossier version longue sans les fichiers cachés: ls -l </li>
-        <li> Afficher le contenu dossier version longue avec les fichiers cachés: ls -al </li>
-        <li> Afficher le chemin dossier courant: pwd </pli>
-        <li> Se déplacer dans le dossier Documents: cd Documents </li>
-        <li> Afficher le contenu de ce dossier: ls </li>
-        <!-- / est la racine de lecture -->
-      </ul>
-
-    <h3> Super utilisateur et gestion de paquets </h3>
-      <ul>
-
-        <li> Commande pour se mettre en super utilisateur: sudo -s </li>
-        Puis mettre son mot de passe utilisateur </li>
-        <p> Gérer des paquets c'est à dire mettre à jours certaine fonctionnalité et logiciel. </p>
-        <li> Mettre à jour la liste des paquets: apt update </li> <!-- apt permet d aller chercher des mise à jours dans les dépôts. -->
-        <li> Mettre à jour la liste des paquets: apt update </li> <!-- apt permet d aller chercher des mise à jours dans les dépôts. -->
-        <li> Mettre à jour les paquets: apt upgrade </li>
-        <li> Trouver les paquets contenant le mot( ex: XML ): apt search XML </li>
-        <li> Pour installer le paquet git: install git </li>
-        <li> Télécharger un logiciel par internet: ~# cd Téléchargements/</li>
+          <li> Commande pour se mettre en super utilisateur: sudo -s </li>
+          Puis mettre son mot de passe utilisateur </li>
+          <p> Gérer des paquets c'est à dire mettre à jours certaine fonctionnalité et logiciel. </p>
+          <li> Mettre à jour la liste des paquets: apt update </li> <!-- apt permet d aller chercher des mise à jours dans les dépôts. -->
+          <li> Mettre à jour la liste des paquets: apt update </li> <!-- apt permet d aller chercher des mise à jours dans les dépôts. -->
+          <li> Mettre à jour les paquets: apt upgrade </li>
+          <li> Trouver les paquets contenant le mot( ex: XML ): apt search XML </li>
+          <li> Pour installer le paquet git: install git </li>
+          <li> Télécharger un logiciel par internet: ~# cd Téléchargements/</li> <!-- / est la racine de lecture dans une ligne de commande -->
           ~/Téléchargements # dpkg -i (logiciel a installer).deb (.deb avec debian)</li> <!-- dpkg permet de télécharger un logiciel télécharger sur internet -->
-        <li> Pour supprimé un logiciel: apt remove en mode super utilisateur.</li>
+          <li> Pour supprimé un logiciel: apt remove en mode super utilisateur.</li>
 
-      </ul>
+        </ul>
 
       <h3>Création de dossiers et fichiers </h3>
         <ul>
@@ -61,7 +104,10 @@
               <li>  mv permet de déplacer un fichier, il etait dans Memento et on le déplace vers assets/css </li>
           <li> mv permet aussi de renomé des fichiers ou dossiers: exemple: mv style.css design.css</li>
 
-      </ul>
+        </ul>
+      </article>
+
+    </section>
 
         <h2> Editeur de texte </h2>
 
